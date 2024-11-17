@@ -1,0 +1,152 @@
+
+.center{
+  width:500px;
+	margin: 0 auto;
+text-align: center;
+border: 2px solid rgba(100, 154, 226, 0.281);
+    background-color: rgba(246, 247, 250, 0.836);
+margin-top: 15px;
+color: rgb(150, 30, 30);
+
+}
+
+/*container of fields*/
+label {
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+  }
+
+
+  .input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none; /*its  inner border*/
+  }
+
+  /*line after each field*/
+  .line-box {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #9b4040aa;
+  }
+  
+  .line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);/*3d line*/
+    background: #4794e8;
+    transition:ease.3s;  /*time*/
+  } 
+
+  /*select the elemnt that focused*/
+  .input:focus + .line-box .line {
+    width: 100%;
+  }
+
+  /*Button*/
+  button {
+    padding: 12px 24px;
+    background: rgb(165, 80, 80);
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    border: none;
+    /*shape of button*/
+    border-radius: 7px;
+    /*shape of pointer*/
+    cursor: pointer;
+  } 
+  
+  button:hover {
+    background: #cad442;
+    color: #ffffff;
+  }
+ 
+  body{
+    background-image: url("mar.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+/*Search Bar*/
+.bar {
+  /*Crop content*/
+    overflow: hidden;
+    background-color: #64afdb9c;
+  }
+ .bar img{    width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+float: left;
+}
+ 
+  /* Style the links inside the navigation bar */
+  .bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .bar a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .bar input {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  /*social icons*/
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.8;
+  
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }

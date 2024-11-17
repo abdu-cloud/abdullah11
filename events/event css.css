@@ -1,0 +1,132 @@
+.bar {
+   overflow: hidden;
+   background-color: #0000009c;
+  }
+  
+  .bar img{   width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  float: left;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bar a {
+   float: left;
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .bar a:hover {
+   background-color: #ddd;
+   color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .bar a.active {
+   background-color: #21f380;
+   color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .bar input {
+   float: right;
+   padding: 6px;
+   border: none;
+   margin-top: 8px;
+   margin-right: 16px;
+   font-size: 17px;
+  }
+
+body{
+   background-image: linear-gradient( rgba(181, 222, 255, 0.945),#fae5df,#f5cacf,#ed7966, #303179,#141850);
+}
+h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 40px ;
+   color: rgb(85, 22, 85);
+   text-align: center;
+   /*background-color: #fae5df;*/
+   padding: 15px;
+   border-color: maroon ;
+   border-style: double;
+   margin: 15px;
+}
+img{display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;}
+   .display-right{ display: inline;
+      margin-left: 100px;
+      width: 6px;}
+  .display-left{
+      display: inline;
+   margin-left: 600px;
+   width: 6px;
+   }
+div.first{
+   /*background-color: #f5cacf;*/
+   padding: 15px;
+   border-color: maroon ;
+   border-style: double;
+   margin: 15px;
+}
+div.second{
+   /*background-color: #ed7966;*/
+   padding: 15px;
+   border-color: maroon ;
+   border-style: double;
+   margin: 15px;
+}
+div.third{
+   /*background-color: #303179;*/
+   color: white;
+   padding: 15px;
+   border-color: maroon ;
+   border-style: double;
+   margin: 15px;
+}
+div.forth{
+   /*background-color: #141850;*/
+   color: white;
+   padding: 15px;
+   border-color: maroon ;
+   border-style: double;
+   margin: 15px;
+}
+button:hover{
+   background-color: rgb(204, 166, 166);
+}
+.aud{
+   margin: 100px;
+   align-items: center;
+}
+div.photos{
+   /*padding: 200px;*/
+   /*fixed height to slide show*/
+   min-height: 400px;
+
+}
+/*control slides"img" height*/
+.mySlides {   
+   height: 50%;
+   /*align-items: center;*/
+   
+}
+.mySlide {
+   height: 50%;
+   
+}
+.myS {
+   height: 50%;
+   
+}
+.mySl {
+   height: 50%;
+   
+}

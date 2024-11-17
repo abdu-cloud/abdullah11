@@ -1,0 +1,174 @@
+<html>
+
+<head>
+
+    <title>running sports</title>
+    <!--<link rel="stylesheet" href="running.css">-->
+
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        body .container {
+            background-color: rgba(0, 0, 0, 0.973);
+            display: flex;
+            /*المسافات الي بين لينكات البار*/
+            justify-content: space-around;
+            align-items: center;
+            /* border-bottom-style: solid;
+            border-bottom-width: thin;
+            z-index: 15;*/
+            min-height: 60px;
+            font-size: 20px;
+        }
+        
+        li {
+            list-style: none;
+            font-weight: 700;
+            color: black;
+        }
+        
+        ul {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            z-index: 10;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+            /*  display: inline;
+            padding: 8px;*/
+        }
+        
+        a:hover {
+            color: orangered;
+        }
+        
+        .Brand {
+            z-index: 10;
+            color: white;
+        }
+        
+        .x {
+            background-image: url("assets/images/s6.jpg");
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            /* background-size: cover;
+            background-position: center center;*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.75;
+            background-position: center;
+            /* Center the image */
+            /* background-repeat: no-repeat;*/
+            /* Do not repeat the image */
+            background-size: cover;
+            z-index: -1;
+        }
+        /* .RUN {
+            /* width: 90%;
+            max-width: 1366px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: 90vh; 
+        } */
+        
+        .showcaseContainer {
+            height: 40vh;
+            /*هيخلي العناصر جمب بعض ومظبوطه اكتر*/
+            display: flex;
+            /**/
+            justify-content: center;
+            flex-direction: column;
+            align-items: left;
+            gap: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            font-size: x-large;
+            background-color: rgba(226, 171, 99, 0.616);
+        }
+        
+        .REGISTER {
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            /*مسافه بين الجمل الي تحت بعض*/
+            gap: 50px;
+        }
+        
+        h1 span {
+            color: white;
+            background-color: #14010193;
+        }
+        
+        button {
+            background-color: rgb(219, 115, 18);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="x">
+
+    </div>
+
+    <!--startnavbar-->
+    <div class="navbar">
+        <div class="container">
+            <div class="Brand">
+                <h2>ZAMALEK SPORTS CLUB </h2>
+
+            </div>
+            <ul class="links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="#">SERVICE</a></li>
+
+
+
+            </ul>
+            <!--end navbar-->
+        </div>
+    </div>
+    <div class="showcaseContainer">
+
+
+        <p>
+            Running is very good for humans in many different ways.
+            <br> It is a great way to get exercise, and a great way to meet new people.
+            <br> There are many positives, and some negatives, it is easy, enjoyable and makes humans more social,
+            <br> you can do it at anytime, and it relieves stress rather than give stress.
+            <br> Although there are some negatives with running, there are also many positives.
+            <br> Many people run because of the health reasons. It is good for the heart and lungs and people run in the fresh air.
+            <br> Running outside rather than inside is good for you too because of the fresh air.
+            <br>
+        </p>
+    </div>
+    <div class="REGISTER">
+        <h1> if You <span>WANT REGISTER </span> to running sport </h1>
+        <h2> CLICK HERE </h2>
+        <a href="../form/form.html">
+            <button>REGISTER</button>
+        </a>
+    </div>
+</body>
+
+</html>

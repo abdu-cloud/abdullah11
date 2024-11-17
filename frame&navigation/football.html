@@ -1,0 +1,161 @@
+<html>
+
+<head>
+
+    <title>football sports</title>
+   <!-- <link rel="stylesheet" href="football.css">-->
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        
+        .container {
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* border-bottom-style: solid;
+            border-bottom-width: thick;
+            z-index: 20;*/
+            min-height: 60px;
+            font-size: 20px;
+        }
+        
+        li {
+            list-style: none;
+            font-weight: 800;
+            color: black;
+        }
+        
+        ul {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            z-index: 15;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        a:hover {
+            color: orangered;
+        }
+        
+        .Brand {
+            z-index: 10;
+        }
+        
+        .x {
+            background-image: url("assets/images/s2.jpg");
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            /* background-size: cover;
+            background-position: center center;*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.75;
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            z-index: -1;
+        }
+        /* body{background-image: url("assets/images/people-gb6f1e1a3c_1920.jpg");
+          background-repeat: no-repeat;
+           background-size: cover;}*/
+        
+        .showcaseContainer {
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: left;
+            gap: 50px;
+            color: black;
+            font-size: x-large;
+            background-color: rgba(238, 232, 170, 0.747);
+            z-index: -1;
+        }
+        
+        .REGISTER {
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            z-index: 20;
+            color: white;
+        }
+        
+        h1 {
+            color: black;
+        }
+        
+        h2 {
+            color: black;
+        }
+        
+        h1 span {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.623);
+        }
+        
+        button {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="x">
+    </div>
+    <!--startnavbar-->
+    <div class="navbar">
+        <div class="container">
+            <div class="Brand">
+                <h2>ZAMALEK SPORTS CLUB</h2>
+
+            </div>
+            <ul class="links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="#">SERVICE</a></li>
+
+
+
+            </ul>
+        </div>
+        <div class="showcaseContainer">
+
+
+            <p>
+                Football has been recognized as one of the most popular games across the globe.
+                <br> Almost every country in the world has its set of football teams and enthusiastic football fans.
+                <br> Several football tournaments are held each year at national and international level.
+                <br> The popularity of this game can very well be judged by the excitement that builds among the general public during these matches.
+                <br>
+            </p>
+        </div>
+        <div class="REGISTER">
+            <h1> if You <span>WANT REGISTER </span> to football sport </h1>
+            <h2> CLICK HERE </h2>
+            <a href="../form/form.html">
+                <button>REGISTER</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
